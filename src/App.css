@@ -1,0 +1,52 @@
+
+body, .bg-lab-dark {
+  background-color: #0b132b;
+  color: #e2e8f0;
+}
+
+
+.header-lab-comp {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0284c7 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.card-lab-dark {
+  background-color: #1e293b !important;
+  color: #f8fafc !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-lab-dark:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.4) !important;
+}
+
+
+.card-title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.max-w-100 {
+  max-width: 100%;
+}
+
+
+.btn-gradiente-lab {
+  background: linear-gradient(135deg, #10b981 0%, #0284c7 100%);
+  background-size: 200% 200%;
+  transition: background-position 0.4s ease, filter 0.3s ease, transform 0.2s ease;
+}
+
+
+.btn-gradiente-lab:hover {
+  background: linear-gradient(135deg, #0284c7 0%, #10b981 100%);
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+.btn-gradiente-lab:active {
+  transform: translateY(0);
+}
